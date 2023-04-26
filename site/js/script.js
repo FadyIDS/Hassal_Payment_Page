@@ -1225,3 +1225,32 @@
 		}
 	});
 }());
+$("#Homelink").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#HomeSection").offset().top
+    }, 2000);
+});
+
+  $("#SomeFeatureslink").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#SomeFeatures").offset().top
+    }, 2000);
+});
+
+$("#InnovativeSolutionslink").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#InnovativeSolutions").offset().top
+    }, 2000);
+});
+
+$("#MonitoringPerformancelink").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#MonitoringPerformance").offset().top
+    }, 2000);
+});
+
+$("#MoreAboutlink").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#MoreAbout").offset().top
+    }, 2000);
+});
