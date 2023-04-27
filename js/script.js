@@ -1254,3 +1254,9 @@ $("#MoreAboutlink").click(function() {
         scrollTop: $("#MoreAbout").offset().top
     }, 2000);
 });
+
+$(".button button-secondary-text").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#SomeFeatures").offset().top
+    }, 2000);
+});

@@ -1677,13 +1677,16 @@ html .group-sm:empty {
 	margin-left: 0;
 }
 
+
 html .group-sm > * {
 	display: inline-block;
 	margin-top: 0;
 	margin-bottom: 10px;
 	margin-left: 10px;
 	cursor: auto;
+	font-size: 15px;
 }
+
 .get-start {
 	width: fit-content;
 	margin-top: 10px;
