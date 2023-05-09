@@ -220,7 +220,7 @@ window.onload = function () {
     //On Input Change Events
     name.addEventListener("input", function () {
       if (name.value.length == 0) {
-        document.getElementById("svgname").innerHTML = "John Doe";
+        document.getElementById("svgname").innerHTML = "Name Here";
         document.getElementById("svgnameback").innerHTML = "John Doe";
       } else {
         document.getElementById("svgname").innerHTML = this.value;
