@@ -12,7 +12,13 @@ function CreditCard() {
     document.getElementById('CreditCard-method').scrollIntoView();
 }
 
+function exampleModal() {
+    // document.getElementById('exampleModal').style.display = 'block';
+    $("#exampleModal").modal('show');
+}
+
 function Fawry() {
+    $("#exampleModal").modal('show');
     document.getElementById('Fawry-method').style.display = 'block';
     document.getElementById('CreditCard-method').style.display = 'none';
     document.getElementById('Fawry-method').scrollIntoView();

@@ -1134,3 +1134,35 @@ input[type=checkbox] {
 hr{
     border-top: 1px solid #000;
 }
+
+.modal-body p{
+/* text-align: right; */
+}
+.modal-body strong {
+    width: 100%;
+    /* text-align: right; */
+    display: block;
+}
+
+.Fawry1{
+    list-style: indic;
+}
+
+.Fawry2{
+    list-style: indic;
+}
+
+.modal-content{
+    background-color: #f2f2f2;
+    height: 350px;
+
+}
+
+.text{
+    overflow-y: scroll;
+    height: 200px;
+    background-color: white;
+    padding: 3px 8px;    
+    border-radius: 10px;
+    /* overflow-x: scroll; */
+}
