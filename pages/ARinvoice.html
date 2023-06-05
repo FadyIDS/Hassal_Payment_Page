@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head dir="rtl">
+    
+    <link rel="icon" type="image/png" href="../images/Logo Hassal White.png">
+    <title>Hassal فاتوره</title>
+    <!-- Jquery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Bootstrab -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="../css/ARinvoice .css">
+
+    <!-- Loader -->
+    <link rel="stylesheet" href="../css/pong.css">
+
+    <!-- Card Payment Links -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Card-Payment.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body dir="rtl">
+
+    <div class="container bootdey">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="pong" id="preloaderpong">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="widget-box" id="documentblur">
+                    <div class="widget-header widget-header-large">
+                        <h3 class="widget-title grey lighter">
+                            <i class="ace-icon fa fa-leaf green"></i>
+                            Hassal فاتوره
+                        </h3>
+
+                        <div class="widget-toolbar no-border invoice-info">
+                            <span class="invoice-info-label">فاتوره:</span>
+                            <span class="red">#121212</span>
+
+                            <br>
+                            <span class="invoice-info-label">تاريخ:</span>
+                            <span class="blue">04/04/2014</span>
+                        </div>
+
+                        <div class="widget-toolbar hidden-480">
+                            <a href="#">
+                                <i class="ace-icon fa fa-print"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="widget-body" dir="rtl">
+                        <div class="widget-main padding-24" dir="rtl">
+                            <div class="row" dir="rtl">
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                        <div class="col-xs-11 label label-lg label-info arrowed-in arrowed-right">
+                                            <b>معلومات الشركة</b>
+                                        </div>
+                                    </div>
+
+                                    <div dir="rtl">
+                                        <ul class="list-unstyled spaced" dir="rtl">
+                                            <li>
+                                                <i class="ace-icon fa fa-caret-left blue"></i>شارع,مدينه
+                                            </li>
+
+                                            <li>
+                                                <i class="ace-icon fa fa-caret-left blue"></i>الرمز البريدي
+                                            </li>
+
+                                            <li>
+                                                <i class="ace-icon fa fa-caret-left blue"></i>ولايه دوله
+                                            </li>
+
+                                            <li>
+                                                <i class="ace-icon fa fa-caret-left blue"></i>
+                                                هاتف:
+                                                <b class="red">111-111-111</b>
+                                            </li>
+
+                                            <li class="divider"></li>
+
+                                            <li>
+                                                <i class="ace-icon fa fa-caret-left blue"></i>
+                                                معلومات الدفع
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div><!-- /.col -->
+
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                        <div class="col-xs-11 label label-lg label-success arrowed-in arrowed-right">
+                                            <b>معلومات العميل</b>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <ul class="list-unstyled  spaced">
+                                            <li>
+                                                <i class="ace-icon fa fa-caret-left green"></i>شارع , مدينه
+                                            </li>
+
+                                            <li>
+                                                <i class="ace-icon fa fa-caret-left green"></i>الرمز البريدى
+                                            </li>
+
+                                            <li>
+                                                <i class="ace-icon fa fa-caret-left green"></i>ولايه , دوله
+                                            </li>
+
+                                            <li class="divider"></li>
+
+                                            <li>
+                                                <i class="ace-icon fa fa-caret-left green"></i>
+                                                معلومات الاتصال
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div><!-- /.col -->
+                            </div><!-- /.row -->
+
+                            <div class="space"></div>
+
+                            <div>
+                                <table class="table table-striped table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th class="center">#</th>
+                                            <th>المنتج</th>
+                                            <th class="hidden-xs">الوصف</th>
+                                            <th class="hidden-480">تخفيض</th>
+                                            <th>الاجمالى</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="center">1</td>
+
+                                            <td>
+                                                google.com
+                                            </td>
+                                            <td class="hidden-xs">
+                                                1 سنة تسجيل المجال
+                                            </td>
+                                            <td class="hidden-480"> --- </td>
+                                            <td>$10</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="center">2</td>
+
+                                            <td>
+                                                yahoo.com
+                                            </td>
+                                            <td class="hidden-xs">
+                                                5 سنوات تسجيل المجال
+                                            </td>
+                                            <td class="hidden-480"> 5% </td>
+                                            <td>$45</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="center">3</td>
+                                            <td>الاستضافة</td>
+                                            <td class="hidden-xs"> 1 سنة استضافة أساسية </td>
+                                            <td class="hidden-480"> 10% </td>
+                                            <td>$90</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="center">4</td>
+                                            <td>تصميم</td>
+                                            <td class="hidden-xs"> تخصيص الموضوع </td>
+                                            <td class="hidden-480"> 50% </td>
+                                            <td>$250</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="hr hr8 hr-double hr-dotted"></div>
+
+                            <div class="row">
+                                <div class="col-sm-5 pull-right">
+                                    <h4 class="pull-right">
+                                        المبلغ الإجمالي :
+                                        <span class="red">$395</span>
+                                    </h4>
+                                </div>
+                                <div class="col-sm-7 pull-left"> معلومات اضافيه </div>
+                            </div>
+
+                            <div class="space-6"></div>
+                            <div class="well" style="text-align: right;">
+                                نشكرك على اختيارك ل Hassal.
+                                نحن نؤمن انك ستكون راض عن خدماتنا
+                            </div>
+
+                            <div class="button-CheckOut">
+                                <a class="btn btn-primary" href="#CheckBoxes" id="CheckOutBtn"
+                                    onclick="CheckOut()">افحص</a>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <hr>
+
+
+                    <div id="CheckBoxes">
+
+                        <div class="checkbox-con">
+                            <img src="../images/Fawry Logo transparent.png" alt="Fawry">
+                            <input type="checkbox" class="checkbox" onclick="exampleModal()">
+                            <label>Fawry</label>
+                        </div>
+
+                        
+
+                        <div class="checkbox-con">
+                            <img src="../images/Credit Card Logo.png" alt="Credit Card">
+                            <input type="checkbox" class="checkbox" onclick="CreditCard()">
+                            <label>Credit Card</label>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div id="Fawry-method">
+                        <hr>
+
+
+                        <div class="Fawry-method-con">
+
+                            <input id="Fawryinput" value="0123456789" readonly>
+
+                            <button class="btn btn-warning" id="fawryrefbutton" onclick="FawryReference()">Generate
+                                Fawry Reference
+                                Number
+                            </button>
+                        </div>
+
+                    </div>
+
+
+                    <div id="CreditCard-method">
+
+                        <hr>
+
+
+
+                        <div class="CreditCard-method-con">
+
+                            <div>
+
+                                <!-- <div class="backgroundlogoimage">
+                                    <img src="../images/Logo Hassal.png" />
+                                </div> -->
+                                <div class="payment-title">
+                                    <h1>Payment Information</h1>
+                                </div>
+                                <div class="container preload">
+                                    <div class="creditcard">
+                                        <div class="front">
+                                            <div id="ccsingle"></div>
+                                            <svg version="1.1" id="cardfront" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 750 471" style="enable-background:new 0 0 750 471;"
+                                                xml:space="preserve">
+                                                <g id="Front">
+                                                    <g id="CardBackground">
+                                                        <g id="Page-1_1_">
+                                                            <g id="amex_1_">
+                                                                <path id="Rectangle-1_1_" class="lightcolor grey" d="M40,0h670c22.1,0,40,17.9,40,40v391c0,22.1-17.9,40-40,40H40c-22.1,0-40-17.9-40-40V40
+                            C0,17.9,17.9,0,40,0z" />
+                                                            </g>
+                                                        </g>
+                                                        <path class="darkcolor greydark"
+                                                            d="M750,431V193.2c-217.6-57.5-556.4-13.5-750,24.9V431c0,22.1,17.9,40,40,40h670C732.1,471,750,453.1,750,431z" />
+                                                    </g>
+                                                    <text transform="matrix(1 0 0 1 60.106 295.0121)" id="svgnumber"
+                                                        class="st2 st3 st4">0123 4567 8910 1112</text>
+                                                    <text transform="matrix(1 0 0 1 54.1064 428.1723)" id="svgname"
+                                                        class="st2 st5 st6">Name Here</text>
+                                                    <text transform="matrix(1 0 0 1 54.1074 389.8793)"
+                                                        class="st7 st5 st8">cardholder name</text>
+                                                    <text transform="matrix(1 0 0 1 479.7754 388.8793)"
+                                                        class="st7 st5 st8">expiration</text>
+                                                    <text transform="matrix(1 0 0 1 65.1054 241.5)"
+                                                        class="st7 st5 st8">card
+                                                        number</text>
+                                                    <g>
+                                                        <text transform="matrix(1 0 0 1 574.4219 433.8095)"
+                                                            id="svgexpire" class="st2 st5 st9">01/23</text>
+                                                        <text transform="matrix(1 0 0 1 479.3848 417.0097)"
+                                                            class="st2 st10 st11">VALID</text>
+                                                        <text transform="matrix(1 0 0 1 479.3848 435.6762)"
+                                                            class="st2 st10 st11">THRU</text>
+                                                        <polygon class="st2"
+                                                            points="554.5,421 540.4,414.2 540.4,427.9 		" />
+                                                    </g>
+                                                    <g id="cchip">
+                                                        <g>
+                                                            <path class="st2" d="M168.1,143.6H82.9c-10.2,0-18.5-8.3-18.5-18.5V74.9c0-10.2,8.3-18.5,18.5-18.5h85.3
+                        c10.2,0,18.5,8.3,18.5,18.5v50.2C186.6,135.3,178.3,143.6,168.1,143.6z" />
+                                                        </g>
+                                                        <g>
+                                                            <g>
+                                                                <rect x="82" y="70" class="st12" width="1.5"
+                                                                    height="60" />
+                                                            </g>
+                                                            <g>
+                                                                <rect x="167.4" y="70" class="st12" width="1.5"
+                                                                    height="60" />
+                                                            </g>
+                                                            <g>
+                                                                <path class="st12" d="M125.5,130.8c-10.2,0-18.5-8.3-18.5-18.5c0-4.6,1.7-8.9,4.7-12.3c-3-3.4-4.7-7.7-4.7-12.3
+                            c0-10.2,8.3-18.5,18.5-18.5s18.5,8.3,18.5,18.5c0,4.6-1.7,8.9-4.7,12.3c3,3.4,4.7,7.7,4.7,12.3
+                            C143.9,122.5,135.7,130.8,125.5,130.8z M125.5,70.8c-9.3,0-16.9,7.6-16.9,16.9c0,4.4,1.7,8.6,4.8,11.8l0.5,0.5l-0.5,0.5
+                            c-3.1,3.2-4.8,7.4-4.8,11.8c0,9.3,7.6,16.9,16.9,16.9s16.9-7.6,16.9-16.9c0-4.4-1.7-8.6-4.8-11.8l-0.5-0.5l0.5-0.5
+                            c3.1-3.2,4.8-7.4,4.8-11.8C142.4,78.4,134.8,70.8,125.5,70.8z" />
+                                                            </g>
+                                                            <g>
+                                                                <rect x="82.8" y="82.1" class="st12" width="25.8"
+                                                                    height="1.5" />
+                                                            </g>
+                                                            <g>
+                                                                <rect x="82.8" y="117.9" class="st12" width="26.1"
+                                                                    height="1.5" />
+                                                            </g>
+                                                            <g>
+                                                                <rect x="142.4" y="82.1" class="st12" width="25.8"
+                                                                    height="1.5" />
+                                                            </g>
+                                                            <g>
+                                                                <rect x="142" y="117.9" class="st12" width="26.2"
+                                                                    height="1.5" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g id="Back">
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="back">
+                                            <svg version="1.1" id="cardback" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 750 471" style="enable-background:new 0 0 750 471;"
+                                                xml:space="preserve">
+                                                <g id="Front">
+                                                    <line class="st0" x1="35.3" y1="10.4" x2="36.7" y2="11" />
+                                                </g>
+                                                <g id="Back">
+                                                    <g id="Page-1_2_">
+                                                        <g id="amex_2_">
+                                                            <path id="Rectangle-1_2_" class="darkcolor greydark" d="M40,0h670c22.1,0,40,17.9,40,40v391c0,22.1-17.9,40-40,40H40c-22.1,0-40-17.9-40-40V40
+                        C0,17.9,17.9,0,40,0z" />
+                                                        </g>
+                                                    </g>
+                                                    <rect y="61.6" class="st2" width="750" height="78" />
+                                                    <g>
+                                                        <path class="st3" d="M701.1,249.1H48.9c-3.3,0-6-2.7-6-6v-52.5c0-3.3,2.7-6,6-6h652.1c3.3,0,6,2.7,6,6v52.5
+                    C707.1,246.4,704.4,249.1,701.1,249.1z" />
+                                                        <rect x="42.9" y="198.6" class="st4" width="664.1"
+                                                            height="10.5" />
+                                                        <rect x="42.9" y="224.5" class="st4" width="664.1"
+                                                            height="10.5" />
+                                                        <path class="st5"
+                                                            d="M701.1,184.6H618h-8h-10v64.5h10h8h83.1c3.3,0,6-2.7,6-6v-52.5C707.1,187.3,704.4,184.6,701.1,184.6z" />
+                                                    </g>
+                                                    <text transform="matrix(1 0 0 1 621.999 227.2734)" id="svgsecurity"
+                                                        class="st6 st7">985</text>
+                                                    <g class="st8">
+                                                        <text transform="matrix(1 0 0 1 518.083 280.0879)"
+                                                            class="st9 st6 st10">security code</text>
+                                                    </g>
+                                                    <rect x="58.1" y="378.6" class="st11" width="375.5" height="13.5" />
+                                                    <rect x="58.1" y="405.6" class="st11" width="421.7" height="13.5" />
+                                                    <text transform="matrix(1 0 0 1 59.5073 228.6099)" id="svgnameback"
+                                                        class="st12 st13">Name Here</text>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-container">
+                                    <div class="field-container">
+                                        <label for="name">Name</label>
+                                        <input id="name" maxlength="20" type="text">
+                                    </div>
+                                    <div class="field-container">
+                                        <label for="cardnumber">Card Number</label><span id="generatecard">generate
+                                            random</span>
+                                        <input id="cardnumber" type="text" pattern="[0-9]*" inputmode="numeric">
+                                        <svg id="ccicon" class="ccicon" width="750" height="471" viewBox="0 0 750 471"
+                                            version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                                        </svg>
+                                    </div>
+                                    <div class="field-container">
+                                        <label for="expirationdate">Expiration (mm/yy)</label>
+                                        <input id="expirationdate" type="text" pattern="[0-9]*" inputmode="numeric">
+                                    </div>
+                                    <div class="field-container">
+                                        <label for="securitycode">Security Code</label>
+                                        <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div
+    class="modal"
+    id="exampleModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            سياسة الخصوصيه و الاسترجاع
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          
+          </div>
+        <div class="modal-body">
+        <div>
+            
+        <div class="text">
+        <strong style="text-align: right;">سياسة الخصوصيه</strong>
+        <p style="text-align: right;">توضح سياسة الخصوصية هذه الأساس الذي ستقوم بموجبه بالتعامل مع أي بيانات شخصية بما في ذلك على سبيل المثال لا الحصر بيانات الدفع، وغيرها من البيانات الأخرى التي تجمعها منك أو من مصادر أخرى أو تلك التي تقدمها إلينا إيشار إليها بالبيانات ) وذلك بغية وصولك واستخدامك ، والخدمات والتطبيقات المشار إليها مجتمعة بالخدمات ) إننا ندرك أهمية هذه البيانات، ونحن نلتزم بحماية خصوصيتك واحترامها. يرجى قراءة ما يلي بعناية لفهم ممارساتنا فيما يتعلق بالبيانات باستخدامت لخدماتنا فإنك توافق على التعامل مع البيانات بما يتفق مع سياسة الخصوصية هذه تعد الإشارات المذكورة بضمير المتكلم (أو ما شابه) في سياسة الخصوصية هذه إشارات إلى شركة IQ MOBILES 10 وتعد الإشارات إليك أو المستخدم إشارات إليك كفرد او شخص اعتباري، حسب مقتضى الحال</p>
+        <ul class="Fawry1" style="text-align: right;">
+        <li><p>لتزويدك بالمعلومات أو المنتجات أو الخدمات التي تطلبها منا أو نرى أنك قد تكون مهتماً بها وحيث قمت بالموافقة على أن يتم الاتصال بك لمثل هذه الأغراض</p></li>
+        
+        <li><p>لتزويدك بالخدمات المعتمدة على المكان التي توجد فيه مثل الإعلان ونتائج البحث ومحتويات أخرى مخصصة لك.</p></li>
+        
+        <li><p>لتنفيذ الالتزامات الناجمة عن أن عقود مبرمة بينك وبين أن جهة اخرى تستخدم مواقعنا، أو بينك وبيننا</p></li>
+        
+        <li><p>لتحسين خدماتنا ولتقديم خدمات أفضل ومخصصة بدرجة أكبر</p></li>
+        
+        <li><p>لضمان تقديم محتوى موقعنا بأكثر الطرق فاعلية لك وللجهاز التي تستخدمه للوصول إلى موقعنا.</p></li>
+        
+        <li><p>اخطارك بالتغييرات التي يجريها موقعك</p></li>
+        
+        <li><p>لأى سبب اخر نراه ضرورياً لتعزيز تجربة تصفحك للموقع.</p></li>
+        
+        <li><p>لادارة البرامج التحفيزية وتلبية طلباتك للحصول على هذه الحوافز و / او للسماح لك بالمشاركة بالمسابقات والحصارت في حالة الفوز</p></li>
+
+        </ul>
+
+        <ul class="Fawry2" style="text-align: right;">
+
+        <strong>سياسة الاسترجاع</strong>
+            
+        <p>اذا رغب العميل في إسترجاع أو استبدال المنتج . فيمكه القيام بذلك في خلال 30 يوما من تاريخ الشراء، على النحو التالي:</p>
+        
+        <li><p>لن يتم استرداد الأموال إلا من خلال طريقة الدفع الأصلية</p></li>
+        
+        <li><p>ارفاق فاتورة الشراء الأصلية.</p></li>
+        
+        <li><p>ان يكون المنتج في حالته الأصلية باغلاق الشركة المصنعة</p></li>
+        
+        <li><p>يمكن للعميل استرداد القيمة التي دفعها كما هو مسجل ومحدد في فاتورة المبيعات.</p></li>
+        
+        <li><p>يحق للعميل استبدال سلعة بأخرى بنفس القيمة المذكورة في الفاتورة.</p></li>
+        
+        <li><p>فى حاله وجود عيب صناعه يتم احضار تقرير من الوكيل</p></li>
+        </ul>
+        </div>
+        <div style="margin: 10px 0 0 0;">
+            <b style="text-align: right; margin-left: 115px;">تأكد انك قرأت كل  <span style="color:#404040; text-decoration: underline; text-underline-position: under;">سياسة الخصوصيه و الاسترجاع</span> قبل الضغط على "اوافق على الشروط"</b>
+        </div>
+        </div>
+        </div>
+        
+        <div class="modal-footer" dir="ltr" style="margin-left: 340px;">
+          <button
+            style=""
+            type="button"
+            class="btn btn-danger"
+            data-dismiss="modal"
+            onclick="uncheck">
+            اغلاق
+          </button>
+          <button type="button" class="btn btn-primary" onclick="Fawry()">
+            اوافق على الشروط
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js"></script>
+<script src="../js/Card-Payment.js"></script>
+<script src="../js/Invoice.js"></script>
