@@ -18,7 +18,7 @@ function exampleModal() {
 }
 
 function Fawry() {
-    $("#exampleModal").modal('show');
+    $("#exampleModal").modal('hide');
     document.getElementById('Fawry-method').style.display = 'block';
     document.getElementById('CreditCard-method').style.display = 'none';
     document.getElementById('Fawry-method').scrollIntoView();

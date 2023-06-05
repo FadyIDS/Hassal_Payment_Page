@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="en">
 
 <head dir="rtl">
     
@@ -228,7 +228,7 @@
                         <div class="checkbox-con">
                             <img src="../images/Fawry Logo transparent.png" alt="Fawry">
                             <input type="checkbox" class="checkbox" onclick="exampleModal()">
-                            <label>Fawry</label>
+                            <label>فورى</label>
                         </div>
 
                         
@@ -236,7 +236,7 @@
                         <div class="checkbox-con">
                             <img src="../images/Credit Card Logo.png" alt="Credit Card">
                             <input type="checkbox" class="checkbox" onclick="CreditCard()">
-                            <label>Credit Card</label>
+                            <label>كارت أتمان</label>
                         </div>
 
                     </div>
@@ -251,9 +251,7 @@
 
                             <input id="Fawryinput" value="0123456789" readonly>
 
-                            <button class="btn btn-warning" id="fawryrefbutton" onclick="FawryReference()">Generate
-                                Fawry Reference
-                                Number
+                            <button class="btn btn-warning" id="fawryrefbutton" onclick="FawryReference()">الحصول على رقم فورى المرجعي
                             </button>
                         </div>
 
@@ -266,15 +264,15 @@
 
 
 
-                        <div class="CreditCard-method-con">
+                        <div class="CreditCard-method-con" dir="ltr">
 
                             <div>
 
                                 <!-- <div class="backgroundlogoimage">
                                     <img src="../images/Logo Hassal.png" />
                                 </div> -->
-                                <div class="payment-title">
-                                    <h1>Payment Information</h1>
+                                <div class="payment-title" >
+                                    <h1>معلومات الدفع</h1>
                                 </div>
                                 <div class="container preload">
                                     <div class="creditcard">
@@ -304,8 +302,7 @@
                                                     <text transform="matrix(1 0 0 1 479.7754 388.8793)"
                                                         class="st7 st5 st8">expiration</text>
                                                     <text transform="matrix(1 0 0 1 65.1054 241.5)"
-                                                        class="st7 st5 st8">card
-                                                        number</text>
+                                                        class="st7 st5 st8">card number</text>
                                                     <g>
                                                         <text transform="matrix(1 0 0 1 574.4219 433.8095)"
                                                             id="svgexpire" class="st2 st5 st9">01/23</text>
@@ -403,11 +400,11 @@
                                 </div>
                                 <div class="form-container">
                                     <div class="field-container">
-                                        <label for="name">Name</label>
+                                        <label for="name" style="text-align: right;">الاسم</label>
                                         <input id="name" maxlength="20" type="text">
                                     </div>
                                     <div class="field-container">
-                                        <label for="cardnumber">Card Number</label><span id="generatecard">generate
+                                        <label for="cardnumber">رقم كارت الاتمان</label><span id="generatecard">generate
                                             random</span>
                                         <input id="cardnumber" type="text" pattern="[0-9]*" inputmode="numeric">
                                         <svg id="ccicon" class="ccicon" width="750" height="471" viewBox="0 0 750 471"
@@ -417,11 +414,11 @@
                                         </svg>
                                     </div>
                                     <div class="field-container">
-                                        <label for="expirationdate">Expiration (mm/yy)</label>
+                                        <label for="expirationdate">انتهاء الصلاحية (mm/yy)</label>
                                         <input id="expirationdate" type="text" pattern="[0-9]*" inputmode="numeric">
                                     </div>
                                     <div class="field-container">
-                                        <label for="securitycode">Security Code</label>
+                                        <label for="securitycode">رمز الحماية</label>
                                         <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric">
                                     </div>
 
@@ -481,12 +478,11 @@
         <li><p>لادارة البرامج التحفيزية وتلبية طلباتك للحصول على هذه الحوافز و / او للسماح لك بالمشاركة بالمسابقات والحصارت في حالة الفوز</p></li>
 
         </ul>
-
+<strong>سياسة الاسترجاع</strong>
+<p>اذا رغب العميل في إسترجاع أو استبدال المنتج . فيمكه القيام بذلك في خلال 30 يوما من تاريخ الشراء، على النحو التالي:</p>
         <ul class="Fawry2" style="text-align: right;">
 
-        <strong>سياسة الاسترجاع</strong>
-            
-        <p>اذا رغب العميل في إسترجاع أو استبدال المنتج . فيمكه القيام بذلك في خلال 30 يوما من تاريخ الشراء، على النحو التالي:</p>
+        
         
         <li><p>لن يتم استرداد الأموال إلا من خلال طريقة الدفع الأصلية</p></li>
         
@@ -512,8 +508,7 @@
             style=""
             type="button"
             class="btn btn-danger"
-            data-dismiss="modal"
-            onclick="uncheck">
+            data-dismiss="modal">
             اغلاق
           </button>
           <button type="button" class="btn btn-primary" onclick="Fawry()">

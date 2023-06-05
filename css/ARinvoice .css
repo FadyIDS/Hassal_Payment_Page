@@ -1136,11 +1136,11 @@ hr{
 }
 
 .modal-body p{
-/* text-align: right; */
+text-align: right;
 }
 .modal-body strong {
     width: 100%;
-    /* text-align: right; */
+    text-align: right;
     display: block;
 }
 
