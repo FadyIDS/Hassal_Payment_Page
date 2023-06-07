@@ -1154,13 +1154,14 @@ text-align: right;
 
 .modal-content{
     background-color: #f2f2f2;
-    height: 350px;
+    height: 500px;
+    width: 600px;
 
 }
 
 .text{
     overflow-y: scroll;
-    height: 200px;
+    height: 350px;
     background-color: white;
     padding: 3px 8px;    
     border-radius: 10px;
@@ -1171,3 +1172,22 @@ text-align: right;
     padding: 0px;
     text-align: right;
 }
+
+.text p {
+    font-size: 13px;
+}
+
+.text strong {
+    font-size: 16px;
+}
+
+.
+.modal-dialog{
+    height: 500px;
+    max-width: 800px;
+}
+
+/* .modal{ */
+    /* width: 2000px; */
+    /* height: 3000px; */
+/* } */

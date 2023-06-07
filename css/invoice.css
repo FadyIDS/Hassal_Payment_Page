@@ -1154,15 +1154,22 @@ hr{
 
 .modal-content{
     background-color: #f2f2f2;
-    height: 350px;
-
+    height: 500px;
+    width: 600px;
 }
 
 .text{
     overflow-y: scroll;
-    height: 200px;
+    height: 350px;
     background-color: white;
     padding: 3px 8px;    
     border-radius: 10px;
     /* overflow-x: scroll; */
+}
+
+.text p {
+    font-size: 13px;
+} 
+.text strong {
+    font-size: 16px;
 }
